@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c8473fdb3972aa44a8b1a14e0b11803, type: 3}
+  m_Name: QuestionData
+  m_EditorClassIdentifier: 
+  questions:
+  - questionInfo: 1+1
+    options:
+    - 2
+    - 3
+    - 4
+    - 5
+    correctAns: 2
+  - questionInfo: 1+2
+    options:
+    - 2
+    - 3
+    - 4
+    - 5
+    correctAns: 3
+  - questionInfo: 1+3
+    options:
+    - 2
+    - 3
+    - 4
+    - 5
+    correctAns: 4
+  - questionInfo: 1+4
+    options:
+    - 2
+    - 3
+    - 4
+    - 5
+    correctAns: 5
+  - questionInfo: 1+5
+    options:
+    - 6
+    - 7
+    - 8
+    - 9
+    correctAns: 6
+  - questionInfo: 1+6
+    options:
+    - 6
+    - 7
+    - 8
+    - 9
+    correctAns: 7
+  - questionInfo: 1+7
+    options:
+    - 6
+    - 7
+    - 8
+    - 9
+    correctAns: 8
+  - questionInfo: 1+8
+    options:
+    - 6
+    - 7
+    - 8
+    - 9
+    correctAns: 9
+  - questionInfo: 1+9
+    options:
+    - 10
+    - 11
+    - 12
+    - 14
+    correctAns: 10
+  - questionInfo: 1+10
+    options:
+    - 10
+    - 11
+    - 12
+    - 14
+    correctAns: 11
