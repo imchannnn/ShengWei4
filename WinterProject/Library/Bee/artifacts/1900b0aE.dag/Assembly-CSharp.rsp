@@ -328,6 +328,8 @@
 -r:"D:/UnityHub/Unity Hub/2021.3.11f1/Editor/Data/NetStandard/ref/2.1.0/netstandard.dll"
 -r:"D:/UnityHub/Unity Hub/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Gradle.dll"
 -r:"D:/UnityHub/Unity Hub/2021.3.11f1/Editor/Data/PlaybackEngines/AndroidPlayer/Unity.Android.Types.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/Cinemachine.ref.dll"
+-r:"Library/Bee/artifacts/1900b0aE.dag/com.unity.cinemachine.editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.EditorCoroutines.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.Performance.Profile-Analyzer.Editor.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.PlasticSCM.Editor.ref.dll"
@@ -359,6 +361,7 @@
 "Assets/48 Particle Effect Pack/Script/csParticleEffectPackLightControl.cs"
 "Assets/48 Particle Effect Pack/Script/csParticleMove.cs"
 "Assets/48 Particle Effect Pack/Script/csShowAllEffect.cs"
+"Assets/ScreenShake.cs"
 "Assets/Script/BattleProcess.cs"
 "Assets/Script/HealthControl.cs"
 "Assets/Script/ProcessController.cs"
@@ -366,6 +369,8 @@
 "Assets/Script/QuizManager.cs"
 "Assets/Script/QuizUI.cs"
 "Assets/Script/ShuffleList.cs"
+"Assets/viewReport.cs"
+"Assets/VirtualShake.cs"
 -langversion:9.0
 
 /deterministic
