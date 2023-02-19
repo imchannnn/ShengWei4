@@ -369,6 +369,7 @@
 "Assets/Script/QuizManager.cs"
 "Assets/Script/QuizUI.cs"
 "Assets/Script/ShuffleList.cs"
+"Assets/Sword.cs"
 "Assets/viewReport.cs"
 "Assets/VirtualShake.cs"
 -langversion:9.0
