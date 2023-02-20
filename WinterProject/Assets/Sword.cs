@@ -6,15 +6,16 @@ using Cinemachine;
 
 public class Sword : MonoBehaviour
 {
-    
     public ParticleSystem ex;
     public GameObject CM;
+    public Animator woundAni;
     void Start()
     {
         CM.transform.gameObject.SetActive(false);
         //CM.GetComponent<CinemachineVirtualCamera>().enabled = false;
         //this.GetComponent<CinemachineVirtualCamera>().enabled = false;
         ex.Stop();
+        woundAni.gameObject.SetActive(false);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,6 +23,7 @@ public class Sword : MonoBehaviour
         {
             CM.transform.gameObject.SetActive(true);
             ex.Play();
+            woundAni.gameObject.SetActive(true);
             //this.GetComponent<CinemachineVirtualCamera>().enabled = true;
         }
     }

@@ -17933,6 +17933,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ex: {fileID: 620390603}
   CM: {fileID: 629444705}
+  woundAni: {fileID: 1447868293}
 --- !u!50 &1130463490
 Rigidbody2D:
   serializedVersion: 4
