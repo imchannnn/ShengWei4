@@ -15,6 +15,7 @@ public class ProcessController : MonoBehaviour
     [SerializeField] Canvas menu, mainPage;
     [SerializeField] Image quiz,battle,win,lose;
     [SerializeField] Slider timeSlider;
+    [SerializeField] ParticleSystem ex;
     private float currentTime;
     private GameStatus gameStatus = GameStatus.IDLE;
     private bool attackDir;
@@ -25,7 +26,7 @@ public class ProcessController : MonoBehaviour
     }
     void Start()
     {
-        
+        ex.Stop();        
     }
     public void StartForTest()
     {
