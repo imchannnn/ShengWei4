@@ -361,6 +361,7 @@
 "Assets/48 Particle Effect Pack/Script/csParticleEffectPackLightControl.cs"
 "Assets/48 Particle Effect Pack/Script/csParticleMove.cs"
 "Assets/48 Particle Effect Pack/Script/csShowAllEffect.cs"
+"Assets/Generating.cs"
 "Assets/ScreenShake.cs"
 "Assets/Script/BattleProcess.cs"
 "Assets/Script/HealthControl.cs"
