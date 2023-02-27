@@ -5,7 +5,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638121993922094775
+      ticks: 638130658171207389
     m_Hash: 2584840489
   m_LockFileStatus:
     m_FilePath: "E:/github \u5C08\u984C/ShengWei4/WinterProject/Packages/packages-lock.json"
@@ -13,7 +13,7 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638121993922094775
+      ticks: 638130658171217405
     m_Hash: 368091525
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
@@ -105,6 +105,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.21
     - 2.0.0-preview.22
     - 2.0.0
+    - 2.0.1
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -120,6 +121,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.21
     - 2.0.0-preview.22
     - 2.0.0
+    - 2.0.1
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -720,6 +722,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
@@ -1008,9 +1011,26 @@ m_ResolvedPackages:
   errors: []
   versions:
     all:
+    - 1.5.0
+    - 1.5.1-pre.3
+    - 1.5.1-pre.5
+    - 1.5.1
+    - 1.5.2
+    - 1.6.0-pre.3
+    - 1.6.0
+    - 1.6.1
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
+    - 1.7.5
+    - 1.7.6
+    - 1.7.7
     - 1.7.8
+    - 1.8.0-pre.1
+    - 1.8.0
     compatible:
     - 1.7.8
+    - 1.8.0
     verified: 1.7.8
   dependencies:
   - name: com.unity.ugui
@@ -1036,7 +1056,7 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637878097330000000
   documentationUrl: 
   hasRepository: 1
   repository:
@@ -3119,12 +3139,14 @@ m_ResolvedPackages:
     - 1.5.2
     - 1.6.0
     - 1.7.0
+    - 1.7.1
     compatible:
     - 1.4.2
     - 1.4.3
     - 1.5.2
     - 1.6.0
     - 1.7.0
+    - 1.7.1
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -3175,16 +3197,25 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: A framework for making any serializable field a setting, complete
     with a pre-built settings interface.
   status: 4
   errors: []
   versions:
     all:
+    - 0.1.0-preview.4
+    - 0.1.0-preview.8
+    - 1.0.0
+    - 1.0.1
+    - 1.0.2
     - 1.0.3
+    - 2.0.0
+    - 2.0.1
     compatible:
     - 1.0.3
+    - 2.0.0
+    - 2.0.1
     verified: 1.0.3
   dependencies: []
   resolvedDependencies: []
@@ -3198,12 +3229,12 @@ m_ResolvedPackages:
     capabilities: 7
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 0
+  datePublishedTicks: 637300096300000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
     revision: 473664ccba1496294b741cf169740a5d54b3d0b6
     path: 
   unityLifecycle:
